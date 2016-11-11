@@ -17,6 +17,11 @@
                     'type' => 'string',
                     'location' => 'query',
                 ],
+                'include' => [
+                    'required' => false,
+                    'type' => 'string',
+                    'location' => 'query',
+                ],
             ]
         ],
         'GetUser' => [
